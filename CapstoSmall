@@ -1,0 +1,40 @@
+using System;
+using System.Diagnostics;
+using System.Text;
+
+
+namespace ex1
+{
+   class stoc
+   {
+   static void Main(string[] args)
+      {
+         // char m='0';
+          Console.WriteLine("please Enter the value");
+          int m=(int)Convert.ToChar(Console.ReadLine());
+      	int val=(int)Convert.ToChar(m);
+          if(val>=65&&val<=90)
+          {
+              int ReqVal=val-65;
+              int letter=97+ReqVal;
+              Console.WriteLine((char)letter);
+              Console.WriteLine("Entered values is CApital letter");
+          }
+          else if(val>=97&&val<=122){
+              int ReqVal=val-97;
+              int letter=65+ReqVal;
+              Console.WriteLine((char)letter);
+               Console.WriteLine("Entered values is small letter");
+          }
+          else if(val>=48&&val<=57){
+               Console.WriteLine("Entered values is number");
+          }
+          else{
+               Console.WriteLine("Entered values is symbol");
+          }
+       
+       
+        Console.ReadLine();
+      }
+   }
+}
