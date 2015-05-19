@@ -2,10 +2,8 @@
 using System;
 using System.Diagnostics;
 using System.Text;
-
 namespace ex1
 {
-
    class stoc
    {
    static void Main(string[] args)
