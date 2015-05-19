@@ -5,6 +5,7 @@ using System.Text;
 
 namespace ex1
 {
+
    class stoc
    {
    static void Main(string[] args)
@@ -15,6 +16,7 @@ namespace ex1
       	int val=(int)Convert.ToChar(m);
           if(val>=65&&val<=90)
           {
+		  Console.WriteLine("Testing from the git extension");
               int ReqVal=val-65;
               int letter=97+ReqVal;
               Console.WriteLine((char)letter);
